@@ -1,0 +1,47 @@
+  // Colours
+$white: #fff;
+$blue: #00a8e1;
+$backgroundColor: #000;
+
+//  Banner size
+$width: 300px;
+$height: 250px;
+
+
+@font-face {
+  font-family: 'SSTPro-Light';
+  src: url('../fonts/SSTPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SSTPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SSTPro-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/SSTPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SSTPro-Light.svg#2484f3c166c363c980494468a4296b83') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+
+
+
+@font-face {
+  font-family: 'SSTPro-Bold';
+  src: url('SSTPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('SSTPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SSTPro-Bold.woff') format('woff'), /* Modern Browsers */
+       url('SSTPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SSTPro-Bold.svg#1ed0f397dd84c4a1a512bddd3d65a5bf') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+
+  html {
+  	box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+  	box-sizing: inherit;
+  }
